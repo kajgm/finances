@@ -1,6 +1,8 @@
+/***** Functions related to creating a new sheet at the start of the year *****/
+
 function newYear() {
   var ss = SpreadsheetApp.openById(SPREADSHEETID);
-  
+
   duplicateTemplates(ss);
   resetSummaryMatrix(ss);
 }
